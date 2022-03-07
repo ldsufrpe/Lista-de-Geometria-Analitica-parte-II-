@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\input{structure.tex}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\begin{document}
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+\textsc{UFRPE - Departamaento de Matemática} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.1cm] % Thin top horizontal rule
+\huge Lista de Exercícios\\ Geometria Analítica: Parte II \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Leon Silva/Marcelo Pedro\\\href{mailto:leon.silva@ufrpe.br}{\textcolor{blue}{leon.silva@ufrpe.br}}} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+
+
+\maketitle 
+\begin{enumerate}[labelwidth=0.5cm,align=left]
+%\input{sections/vetores.tex}
+\input{sections/conicas.tex}
+\end{enumerate}
+\input{refs.tex}
+
+\end{document}
